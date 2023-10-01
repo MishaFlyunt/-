@@ -80,6 +80,10 @@ h3 {
   text-decoration-line: underline;
   color: #005fff;
 }
+
+.link-color-git{
+  color: #161d2a;
+}
 .phone {
   font-style: normal;
   font-weight: 400;
@@ -213,6 +217,7 @@ aside {
   display: flex;
   gap: 10px;
   margin-top: 3px;
+  margin-bottom: 4px;
 }
 
 .company-list {
