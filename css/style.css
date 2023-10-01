@@ -18,7 +18,7 @@ h2 {
 h3 {
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 27px;
   margin-bottom: 20px;
 }
@@ -30,15 +30,27 @@ h3 {
   width: 1200px;
   margin: 0 auto;
 }
+
 /* Main content */
 .main-content {
   padding: 88px;
   width: 830px;
 }
 /* About me */
+
 .my-profession {
   margin-bottom: 18px;
+  color: #498ca4;
+  font-size: 16px;
+  margin-bottom: 50px;
 }
+
+.title-name {
+  font-size: 42px;
+  color: #275262;
+  margin-bottom: 10px;
+}
+
 .project {
   margin-bottom: 64px;
   width: 525px;
@@ -68,12 +80,12 @@ h3 {
   line-height: 20px;
 }
 .color-text,
-.company-item {
+.company-title {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
-  margin-top: 42px;
+  /* margin-top: 42px; */
   margin-bottom: 10px;
 }
 h4 {
@@ -185,4 +197,24 @@ aside {
 .company-list {
   margin: 0;
   padding: 0 0 0 14px;
+}
+
+/* Education */
+
+.education-title {
+  margin-top: 50px;
+}
+
+.education-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.education-item{
+  margin-bottom: 20px;
+}
+
+.education-color-text{
+  font-size: 18px;
 }
