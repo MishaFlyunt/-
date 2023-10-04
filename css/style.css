@@ -1,11 +1,12 @@
 body {
-  background-color: #e5e5e5;
-  padding: 40px;
+margin: 0;
+  /* padding: 40px; */
   font-family: "Montserrat", sans-serif;
 }
 
 p {
   margin: 0;
+  width: 100%;
 }
 
 h2 {
@@ -13,6 +14,7 @@ h2 {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
+  margin: 0 0 5px;
 }
 
 h3 {
@@ -20,18 +22,10 @@ h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  margin-bottom: 20px;
+  margin-bottom: 7px;
+   
+   /* margin: 0; */
 }
-
-/* @media screen and (max-width: 767px) {
-	.wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
-  width: 1200px;
-  margin: 0 auto;
-}
-} */
 
 .wrapper {
   display: flex;
@@ -39,20 +33,21 @@ h3 {
   background-color: white;
   width: 1200px;
   margin: 0 auto;
+  /* border: 1px solid rgb(140, 138, 138); */
 }
 
 /* Main content */
 .main-content {
-  padding: 88px;
-  width: 830px;
+  padding: 15px 48px;
+
+  width: 70%;
 }
-/* About me */
 
 .my-profession {
   margin-bottom: 18px;
   color: #498ca4;
   font-size: 16px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .title-name {
@@ -62,8 +57,8 @@ h3 {
 }
 
 .project {
-  margin-bottom: 64px;
-  width: 525px;
+  margin-bottom: 34px;
+  /* width: 525px; */
 }
 
 .link-progect {
@@ -113,7 +108,8 @@ h4 {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
+  margin: 0;
 }
 p,
 li {
@@ -134,7 +130,7 @@ li {
 
 .skills {
   background-color: #e0ebfe;
-  width: 40%;
+  width: 30%;
 }
 
 .skills-img{
@@ -156,9 +152,7 @@ img {
 aside {
   width: 370px;
 }
-.company {
-  width: 525px;
-}
+
 .sidebar {
   margin-bottom: 8px;
 }
@@ -202,7 +196,7 @@ aside {
   font-size: 14px;
   line-height: 24px;
   color: #000000;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 .link-color {
@@ -231,15 +225,24 @@ aside {
   gap: 12px;
 }
 
+.company{
+  margin-bottom: 10px;
+}
+
 .company-list {
   margin: 0;
   padding: 0 0 0 14px;
+  /* width: 100%; */
+}
+
+.company-list-item{
+  width: 100%;
 }
 
 /* Education */
 
 .education-title {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .education-list {
@@ -249,7 +252,7 @@ aside {
 }
 
 .education-item {
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .education-color-text {
@@ -267,6 +270,7 @@ aside {
 
 .contact-social {
   display: flex;
+  flex-direction: column;
   gap: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
