@@ -162,10 +162,14 @@ aside {
   font-size: 12px;
   line-height: 24px;
   color: #161d2a;
-  /* margin-left: 12px; */
+  margin-left: 5px;
 }
 .contact-type-text {
   margin: 0;
+}
+
+.contact{
+  color:#595959;
 }
 .skills-list {
   margin: 0;
@@ -265,13 +269,13 @@ aside {
   display: flex;
   align-items: center;
   gap: 5px;
-  color: #005fff;
+  /* color: #005fff; */
 }
 
 .contact-social {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
